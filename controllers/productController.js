@@ -2,7 +2,7 @@ require('dotenv').config();
 const jwt = require("jsonwebtoken");
 
 
-const Product = require("../models/Product");
+const Product = require("../models/product");
 
 const createProduct = async (req, res) => {
   
