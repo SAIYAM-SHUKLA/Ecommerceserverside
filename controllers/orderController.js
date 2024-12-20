@@ -2,8 +2,8 @@
 require('dotenv').config();
 const jwt = require("jsonwebtoken");
 
-const Order = require("../models/Order");
-const Product = require("../models/Product");
+const Order = require("../models/order");
+const Product = require("../models/product");
 
 const createOrder = async (req, res) => {
   // console.log("request has reached here")
